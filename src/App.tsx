@@ -9,6 +9,7 @@ import HowItWorks from './components/HowItWorks';
 import VeloxPromise from './components/VeloxPromise';
 import SubscribeSection from './components/SubscribeSection';
 import Footer from './components/Footer';
+import { Analytics } from "@vercel/analytics/react"
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -23,6 +24,7 @@ function App() {
     return (
         <div className="min-h-screen bg-background text-text-primary font-display">
             <main>
+                <Analytics />
                 <Hero />
                 <BentoFeatures />
                 <FeaturesSection />
