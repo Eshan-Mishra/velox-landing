@@ -51,6 +51,12 @@ const Hero: React.FC = () => {
             <div className="relative z-10 max-w-6xl mx-auto w-full grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
                 {/* Left: Copy */}
                 <div ref={leftRef} className="order-2 lg:order-1 text-center lg:text-left">
+                    {/* Logo */}
+                    <div className="flex items-center justify-center lg:justify-start gap-2 mb-8">
+                        <img src="/logo.svg" alt="Velox Logo" className="w-8 h-8" />
+                        <span className="text-primary font-bold text-2xl tracking-tight uppercase">Velox</span>
+                    </div>
+
                     {/* Eyebrow */}
                     <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full border border-white/[0.08] bg-white/[0.03] mb-6">
                         <span className="w-2 h-2 rounded-full bg-primary animate-pulse" />
