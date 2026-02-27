@@ -6,7 +6,7 @@ import Hero from './components/Hero';
 import BentoFeatures from './components/BentoFeatures';
 import FeaturesSection from './components/FeaturesSection';
 import HowItWorks from './components/HowItWorks';
-import VeloxPromise from './components/VeloxPromise';
+import SwipeWisePromise from './components/VeloxPromise';
 import SubscribeSection from './components/SubscribeSection';
 import Footer from './components/Footer';
 import { Analytics } from "@vercel/analytics/react"
@@ -29,7 +29,7 @@ function App() {
                 <BentoFeatures />
                 <FeaturesSection />
                 <HowItWorks />
-                <VeloxPromise />
+                <SwipeWisePromise />
                 <SubscribeSection />
             </main>
 

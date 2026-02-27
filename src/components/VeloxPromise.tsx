@@ -1,7 +1,7 @@
 import React from 'react';
 import { useGsapTextReveal, useGsapFadeIn } from '../hooks/useGsapScroll';
 
-const VeloxPromise: React.FC = () => {
+const SwipeWisePromise: React.FC = () => {
     const tagRef = useGsapFadeIn<HTMLParagraphElement>({ y: 20 });
     const quoteRef = useGsapTextReveal<HTMLParagraphElement>();
     const attrRef = useGsapFadeIn<HTMLParagraphElement>({ y: 10, delay: 0.6 });
@@ -13,7 +13,7 @@ const VeloxPromise: React.FC = () => {
 
             <div className="relative max-w-3xl mx-auto text-center">
                 <p ref={tagRef} className="text-primary text-sm font-semibold uppercase tracking-widest mb-8">
-                    The Velox Promise
+                    The SwipeWise Promise
                 </p>
                 <blockquote className="relative">
                     <span className="absolute -top-6 left-1/2 -translate-x-1/2 text-7xl font-serif text-primary/10 leading-none select-none">
@@ -27,11 +27,11 @@ const VeloxPromise: React.FC = () => {
                     </p>
                 </blockquote>
                 <p ref={attrRef} className="mt-6 text-text-muted text-sm font-medium tracking-wide">
-                    — The Velox Mission
+                    — The SwipeWise Mission
                 </p>
             </div>
         </section>
     );
 };
 
-export default VeloxPromise;
+export default SwipeWisePromise;

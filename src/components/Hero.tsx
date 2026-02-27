@@ -53,8 +53,8 @@ const Hero: React.FC = () => {
                 <div ref={leftRef} className="order-2 lg:order-1 text-center lg:text-left">
                     {/* Logo */}
                     <div className="flex items-center justify-center lg:justify-start gap-2 mb-8">
-                        <img src="/logo.svg" alt="Velox Logo" className="w-8 h-8" />
-                        <span className="text-primary font-bold text-2xl tracking-tight uppercase">Velox</span>
+                        <img src="/logo.svg" alt="SwipeWise Logo" className="w-8 h-8" />
+                        <span className="text-primary font-bold text-2xl tracking-tight uppercase">SwipeWise</span>
                     </div>
 
                     {/* Eyebrow */}
@@ -168,21 +168,21 @@ const Hero: React.FC = () => {
                 </div>
 
                 {/* Right: 3D Cards */}
-                <div 
-                    ref={rightRef} 
+                <div
+                    ref={rightRef}
                     className="order-1 lg:order-2 flex justify-center perspective-[1000px]"
                     onMouseMove={(e) => {
                         const bounds = e.currentTarget.getBoundingClientRect();
                         const x = e.clientX - bounds.left;
                         const y = e.clientY - bounds.top;
-                        
+
                         const centerX = bounds.width / 2;
                         const centerY = bounds.height / 2;
-                        
+
                         // Calculate rotation based on cursor position (max 15 degrees)
                         const rotateX = ((y - centerY) / centerY) * -15;
                         const rotateY = ((x - centerX) / centerX) * 15;
-                        
+
                         gsap.to(e.currentTarget.querySelector('.tilt-target'), {
                             rotateX: rotateX,
                             rotateY: rotateY,
@@ -203,7 +203,7 @@ const Hero: React.FC = () => {
                         <div className="absolute inset-0 bg-primary/[0.08] rounded-full blur-[100px] scale-110 -translate-z-[50px]" />
                         <img
                             src={heroCards}
-                            alt="3D glass credit cards stacked in Velox green"
+                            alt="3D glass credit cards stacked in SwipeWise green"
                             className="relative w-72 sm:w-80 lg:w-[420px] drop-shadow-2xl translate-z-[50px]"
                         />
                     </div>

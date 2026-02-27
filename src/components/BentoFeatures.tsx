@@ -43,7 +43,7 @@ const BentoFeatures: React.FC = () => {
                     Core Features
                 </p>
                 <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-text-primary mb-14 tracking-tight text-center">
-                    {"What Velox Does"}
+                    {"What SwipeWise Does"}
                 </h2>
 
                 {/* Asymmetric Fragmented Layout */}

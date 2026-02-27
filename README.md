@@ -1,6 +1,6 @@
-# Velox Landing Page
+# SwipeWise Landing Page
 
-Landing page for Velox.
+Landing page for SwipeWise.
 
 ## Setup
 

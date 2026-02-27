@@ -20,25 +20,25 @@ const features = [
         icon: <AiSparkIcon size={24} className="text-primary" />,
         tag: 'AI Co-Pilot',
         title: 'Which Card. Right Now.',
-        body: 'About to pay at a restaurant? Booking a flight? Buying on Amazon? Velox tells you exactly which card to swipe for maximum rewards — before you pay. Ask in plain language, get a clear answer instantly.',
+        body: 'About to pay at a restaurant? Booking a flight? Buying on Amazon? SwipeWise tells you exactly which card to swipe for maximum rewards — before you pay. Ask in plain language, get a clear answer instantly.',
     },
     {
         icon: <AlertIcon size={24} className="text-primary" />,
         tag: 'Smart Alerts',
         title: 'Never Miss a Milestone Again.',
-        body: "Every card has hidden milestones that unlock bonus rewards or waive annual fees. Velox tracks them all and alerts you when you're close. \"Spend \u20B93,000 more on this card this month to unlock your annual bonus.\"",
+        body: "Every card has hidden milestones that unlock bonus rewards or waive annual fees. SwipeWise tracks them all and alerts you when you're close. \"Spend \u20B93,000 more on this card this month to unlock your annual bonus.\"",
     },
     {
         icon: <CreditCardIcon size={24} className="text-primary" />,
         tag: 'Goal Engine',
         title: 'Set a Goal. Take the Fastest Path.',
-        body: 'Want a free flight to Goa? A new gadget? Tell Velox your goal and it maps the fastest route — factoring in transfer partners, indirect value, and the best redemption windows. Your points become a plan, not a mystery.',
+        body: 'Want a free flight to Goa? A new gadget? Tell SwipeWise your goal and it maps the fastest route — factoring in transfer partners, indirect value, and the best redemption windows. Your points become a plan, not a mystery.',
     },
     {
         icon: <ShieldIcon size={24} className="text-primary" />,
         tag: 'Conflict-Free Advice',
         title: 'No Hidden Agenda. Ever.',
-        body: "Velox doesn't push cards that earn us a commission. It tells you which card truly wins for your lifestyle. And if a different card would genuinely serve you better, we say so — with honest pros and cons.",
+        body: "SwipeWise doesn't push cards that earn us a commission. It tells you which card truly wins for your lifestyle. And if a different card would genuinely serve you better, we say so — with honest pros and cons.",
     },
     {
         icon: <LockIcon size={24} className="text-primary" />,
@@ -57,7 +57,7 @@ const FeaturesSection: React.FC = () => {
             <div className="max-w-6xl mx-auto">
                 <div ref={headingRef}>
                     <p className="text-primary text-sm font-semibold uppercase tracking-widest mb-4 text-center">
-                        Why Velox?
+                        Why SwipeWise?
                     </p>
                     <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-center text-text-primary mb-4 tracking-tight">
                         Your money. Working harder.
@@ -65,7 +65,7 @@ const FeaturesSection: React.FC = () => {
                         <span className="text-text-secondary">Without changing how you spend.</span>
                     </h2>
                     <p className="text-text-secondary text-center max-w-xl mx-auto text-lg mb-16">
-                        Velox sits between you and your banks — always watching, always optimizing, always on your side.
+                        SwipeWise sits between you and your banks — always watching, always optimizing, always on your side.
                     </p>
                 </div>
 

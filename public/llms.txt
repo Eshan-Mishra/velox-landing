@@ -1,8 +1,8 @@
-# Velox
+# SwipeWise
 > India's First Cross-Bank Reward Optimization Engine
 
 ## Overview
-Velox is an AI-powered credit card optimization engine that maximizes your points, miles, and cashback across all Indian banks on every single transaction. Banks design reward systems for breakage—we design them for you.
+SwipeWise is an AI-powered credit card optimization engine that maximizes your points, miles, and cashback across all Indian banks on every single transaction. Banks design reward systems for breakage—we design them for you.
 
 ## Core Features
 - **Real-Time AI Optimizer:** Evaluates merchants, merchant categories (MCC), and platform rules to recommend exactly which credit card to use at checkout, maximizing potential rewards.
@@ -14,5 +14,5 @@ Velox is an AI-powered credit card optimization engine that maximizes your point
 Currently offering a waitlist for early access. Use the website to sign up.
 
 ## Contact & Links
-- Website: https://velox.in/
+- Website: https://swipewise.in/
 - Target Audience: Indian credit card users looking for point optimization.

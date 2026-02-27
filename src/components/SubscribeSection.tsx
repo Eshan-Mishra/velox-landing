@@ -59,7 +59,7 @@ const SubscribeSection: React.FC = () => {
                     <span className="text-primary italic">{"Let's make sure they come home."}</span>
                 </h2>
                 <p className="text-text-secondary text-lg mb-10 max-w-lg mx-auto">
-                    Velox is launching soon. Join the waitlist today and be among the first
+                    SwipeWise is launching soon. Join the waitlist today and be among the first
                     to stop leaving money on the table — for good. Early members get priority
                     access, exclusive launch pricing, and a front-row seat to a smarter way
                     to own your rewards.

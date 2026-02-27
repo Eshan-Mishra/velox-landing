@@ -5,22 +5,22 @@ const steps = [
     {
         num: '01',
         title: 'Add Your Cards',
-        body: 'Select the credit cards you own from our database of 50+ Indian bank cards. Velox loads all the reward rules — rates, categories, caps, milestones — automatically. No manual entry. No guesswork.',
+        body: 'Select the credit cards you own from our database of 50+ Indian bank cards. SwipeWise loads all the reward rules — rates, categories, caps, milestones — automatically. No manual entry. No guesswork.',
     },
     {
         num: '02',
         title: 'Connect Your Transactions',
-        body: "Sync your spending securely via India's Account Aggregator network or through email and SMS parsing. Velox sees what you spend, where, and on which card — and builds your reward profile in real time.",
+        body: "Sync your spending securely via India's Account Aggregator network or through email and SMS parsing. SwipeWise sees what you spend, where, and on which card — and builds your reward profile in real time.",
     },
     {
         num: '03',
         title: 'Let the Co-Pilot Work',
-        body: "From here, Velox runs in the background. Before any big purchase, ask which card to use. Set a redemption goal. Watch the alerts come in. Everything you've been leaving on the table starts coming back.",
+        body: "From here, SwipeWise runs in the background. Before any big purchase, ask which card to use. Set a redemption goal. Watch the alerts come in. Everything you've been leaving on the table starts coming back.",
     },
     {
         num: '04',
         title: "Redeem What's Actually Yours",
-        body: "When it's time to use your points, Velox shows you what they're genuinely worth — not what the bank claims. Transfer to airline miles. Redeem at partner merchants. Get real value, not discounted gift cards.",
+        body: "When it's time to use your points, SwipeWise shows you what they're genuinely worth — not what the bank claims. Transfer to airline miles. Redeem at partner merchants. Get real value, not discounted gift cards.",
     },
 ];
 
